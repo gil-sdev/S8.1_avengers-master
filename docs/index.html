@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Practicas CSS</title>
+<link rel="stylesheet" href="styles.css">
+<style type='text/css'>
+/*estilos para barra de navegacion horizontal*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid none;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: rgb(152, 219, 144);
+}
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: green;
+  text-align: right;
+}
+.ds{
+  color: red;
+  text-align: center;
+}
+#ms {
+font-famiy: calibri;
+font-size: 30px;
+color: white;
+text-align: left;
+}
+
+#divImg{
+background-image: url("�ndice.jpg");
+background-repeat: repeat-x;
+}
+
+.pImg{
+  background-image: url("img.jpg");
+  background-attachment: fixed;
+}
+</style>
+<style type='text/css'>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<header><ul>
+<li><a href="borders.html" class="active">borders</a></li>
+<li><a href="text.html">Formating Text css</a></li>
+<li><a href="ccsFloat.html">Formating Text css</a></li>
+<li><a href="navigationVert.html">Navegacion vertical</a></li>
+<li><a href="dropdownNavbar.html">Drop vertical</a></li>
+<li><a href="websitelayout.html">websitelayout</a></li>
+</ul></header>
+<h1>My First CSS Example</h1>
+<p>This is a paragraph.</p>
+
+<p class="ds">This mi accunt Mozilla</p>
+
+<p id="ms" style="background-color:tomato;">Otra parra con estilos de P </p>
+
+<h6 style="border:2px solid violet;">Hallo guten tag</h6>
+<h6 style="background-color:hsla(9, 100%,64%, 0.9); text-align:center"> <code>background-color:hsla(9, 100%,64%, 0.9)"</code></h1>
+
+<div class="content" style="border: 5px solid green"><h1>DIV</h1></div>
+
+<div id="divImg">
+	<p class="pImg"> Soy una efwfewfewf <br>imagen</p> 
+	<p style="text-align:left;">this other pharaghap</p>
+</div>
+
+<table id="customers">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Berglunds snabbk�p</td>
+    <td>Christina Berglund</td>
+    <td>Sweden</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>K�niglich Essen</td>
+    <td>Philip Cramer</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td>North/South</td>
+    <td>Simon Crowther</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Paris sp�cialit�s</td>
+    <td>Marie Bertrand</td>
+    <td>France</td>
+  </tr>
+</table>
+
+
+
+</body>
+</html>

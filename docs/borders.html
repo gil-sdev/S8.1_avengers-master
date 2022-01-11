@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+p.one {
+  border-style: solid;
+  border-color: red;
+}
+
+p.two {
+  border-style: solid;
+  border-color: green;
+}
+
+p.three {
+  border-style: dotted;
+  border-color: blue;
+}
+
+p.ones{
+  border-left: 6px solid red;
+  background-color: lightgrey;
+}
+
+h2.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #aadbaa;
+  border: 2px solid #73c476;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h2 class="sticky">The border-style Property</h2>
+<p>This property specifies what kind of border to display:</p>
+
+<p class="dotted">A dotted border.</p>
+<p class="dashed">A dashed border.</p>
+<p class="solid">A solid border.</p>
+<p class="double">A double border.</p>
+<p class="groove">A groove border.</p>
+<p class="ridge">A ridge border.</p>
+<p class="inset">An inset border.</p>
+<p class="outset">An outset border.</p>
+<p class="none">No border.</p>
+<p class="hidden">A hidden border.</p>
+<p class="mix">A mixed border.</p>
+
+<p class="one">Some text.</p>
+<p class="two">Some text.</p>
+<p class="three">Some text.</p>
+
+<p class="ones">Some text.</p>
+
+<section>
+	<div>
+		<p style="margin: 25px 50px 75px 100px;">
+		margin: 25px 50px 75px 100px;
+			top margin is 25px
+			right margin is 50px
+			bottom margin is 75px
+			left margin is 100px
+		</p>
+
+	<div>
+	<div class="ex2" style="width: 500px; padding: 25px;box-sizing: border-box;background-color: lightblue;padding: 30px;margin: 50px;">
+	The width of this div remains at 300px, in spite of the 50px of total left
+	and right padding, because of the box-sizing: border-box property.  padding: 30px;
+  margin: 50px;
+	</div>
+</section>
+
+
+<section>
+<h2 style="position: fixed;bottom: 5%;right: 5%;">CSS Outline Style</h2>
+<p class="dotted" style="outline-style:dotted; outline-color:red; width:750px; outline-offset:6px;">A dotted outline</p>
+<p class="dashed" style="outline-style:dashed; outline-color:purple; width:750px;outline-offset:6px;">A dashed outline</p>
+<p class="solid" style="outline-style:solid; outline-color:yellow; width:750px;outline-offset:6px;">A solid outline</p>
+<p class="double" style="outline-style:double; outline-color:gray; width:750px;outline-offset:6px;">A double outline</p>
+<p class="groove" style="outline-style:groove; outline-color:green; width:750px;outline-offset:6px;">A groove outline. The effect depends on the outline-color value.</p>
+<p class="ridge" style="outline-style:ridge; outline-color:tomato; width:750px;outline-offset:6px;">A ridge outline. The effect depends on the outline-color value.</p>
+<p class="inset" style="outline-style:inset; outline-color:blue; width:750px;outline-offset:6px;">An inset outline. The effect depends on the outline-color value.</p>
+<p class="outset" style="outline-style:outset; outline-color:pink; width:750px;outline-offset:6px;">An outset outline. The effect depends on the outline-color value.</p>
+</section>
+
+</body>
+</html>

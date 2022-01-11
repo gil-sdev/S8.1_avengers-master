@@ -1,0 +1,94 @@
+/*Encajonado de los componentes*/
+*{
+box-sizing: border-box;
+}
+body{
+background-color: rgb(226, 235, 232);;
+}
+/*Encabezado*/
+header{
+padding: 20px;
+margin: 0.5;
+text-align: center;
+text-decoration: none;
+background-color:rgba(221, 255, 71, 0.212);
+}
+/*Encabezado*/
+.navbar{
+overflow: hidden;/*Barras de desplazamineto*/
+margin: 0.5;
+ background-color: rgba(220, 230, 225, 0.541);
+}
+
+/*estilo de los vinculos dentro del navbar*/
+.navbar a{
+    float: left;/*orden de los vinculos*/
+    display: block;
+    color: navy;
+    text-decoration: none;
+    padding: 0.8%;
+    font-size: medium;
+}
+/*estilo de los vinculos cuando el puntero pase sobre ellos*/
+.navbar a:hover{
+    background-color: rgba(6, 44, 150, 0.801);
+    color: rgb(235, 232, 241);
+}
+.leftcolumn{
+    /*Alineacion de la columna  a la izaquierda*/
+    float: left;
+    width: 70%;
+
+}
+.rightcolumn{
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+    background-color: rgba(231, 222, 222, 0.24);
+    margin-bottom: 10px;
+
+}
+.card{
+    background-color: rgba(231, 222, 222, 0.24);
+    padding: 20px;
+    margin-top: 20px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.imagen img{
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(226, 235, 232);
+    margin: 5px;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(226, 235, 232);;
+}
+  /*  img{
+        width: 50px;
+        height: 50px;
+    }
+    */
+/*Configurando una pagian responsiva menor a 800px*/
+@media screen and (max-width:800px) {
+.leftcolumn, .rightcolumn{
+    width: 100%;
+    padding: 0;
+}
+
+/*Configurando una pagina responsiva menor a 400px*/
+@media screen and (max-width:400px) {
+    .navbar a{
+        width: 100%;
+        float: none;
+    }
+
+}
+    
+}
