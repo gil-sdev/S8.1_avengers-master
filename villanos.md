@@ -1,13 +1,13 @@
-** duende verde
-** la bruja
-** El mr gui
+### duende verde
+### la bruja
+### El mr gui
 
 
-## testing rama produccion
-## koskokin
+### testing rama produccion
+### koskokin
 
 
-#$ haloos agregando a huesitos
-#$ agrado a zorro
+### haloos agregando a huesitos
+### agrado a zorro
 
-# Shasha
+### Shasha
